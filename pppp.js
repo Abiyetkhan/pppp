@@ -1,6 +1,6 @@
 const TelegramBot = require('node-telegram-bot-api'); const fs = require('fs'); const request = require('request');
 
-const token = '7951430892:AAEYIQBazB2smsBwTvFjc-K82oAP7JBKwbI'; const bot = new TelegramBot(token, { polling: true });
+const token = '7951430892:8093974325:AAG6i74N5KGTHoUwvFhdiB-LgK_Znxuquiw'; const bot = new TelegramBot(token, { polling: true });
 
 const adminId = 7689032393; let userState = {}; // To store user progress let premiumUsers = {}; // Store user subscription details let redeemCodes = {}; // Store generated redeem codes
 
