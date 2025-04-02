@@ -1,0 +1,12 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "main": "pppp.js",
+  "scripts": {
+    "start": "node pppp.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.52.0",
+    "dropbox": "^10.0.1"
+  }
+}
